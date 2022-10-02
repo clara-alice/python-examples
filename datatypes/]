@@ -1,0 +1,16 @@
+# tuple is immutable, list isn't
+
+
+# list + functions + methods
+list1 = [1, 2, 3, 4, 'test']
+list1.append('test 2')
+list1.reverse()
+
+print(len(list1))
+print(list1)
+
+# tuple
+tuple1 = (1, 2, 3, 4, 5, (1, 2, 3, 4, 5, 6, (1, 2, 3, 4)))
+print(tuple1)
+
+
